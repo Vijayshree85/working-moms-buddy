@@ -1,0 +1,12 @@
+.venv/
+.env
+__pycache__/
+
+# Local drafts, checkpoints, and approved family information
+data/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Generated demo video and intermediate media; share the video separately.
+artifacts/

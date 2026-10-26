@@ -1,0 +1,44 @@
+{
+  "provider": "Nebius Token Factory",
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "data_kind": "fictional",
+  "reviewer": "simulated, after checking the complete proposal",
+  "data_folder": "C:\\codebase\\GenAcademy\\Week3\\working-moms-buddy\\working-moms-buddy\\data\\live-duplicate-2026-10-25",
+  "scenarios": {
+    "1": {
+      "result": "PASS",
+      "session_id": "duplicate-check-1-36d72095-b797-494a-b94e-aec5cc5c5cc2",
+      "outcome": "saved",
+      "note_id": "caf8ff4d-9d0e-4915-8304-8310476eef93",
+      "review_digest": "99fb9f8c222580706047c94a8eb77437ae16041a4f32b0100d71d74781bfd093",
+      "counts_before_approval": [
+        0,
+        0
+      ],
+      "counts_after_approval": [
+        1,
+        2
+      ],
+      "no_preapproval_record_changes": true
+    },
+    "6": {
+      "result": "PASS",
+      "session_id": "duplicate-check-2-856f4797-4c9f-4253-98c4-5055a74c6565",
+      "outcome": "duplicate",
+      "note_id": "caf8ff4d-9d0e-4915-8304-8310476eef93",
+      "review_digest": "99fb9f8c222580706047c94a8eb77437ae16041a4f32b0100d71d74781bfd093",
+      "counts_before_approval": [
+        1,
+        2
+      ],
+      "counts_after_approval": [
+        1,
+        2
+      ],
+      "no_preapproval_record_changes": true,
+      "original_rows_and_ids_unchanged": true
+    }
+  },
+  "status": "PASS",
+  "checked_date": "2026-10-25"
+}

@@ -1,0 +1,69 @@
+{
+  "provider": "Nebius Token Factory",
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "data_kind": "fictional",
+  "reviewer": "simulated; proposal, clarification, dates and fingerprint checked before test approval",
+  "data_folder": "C:\\codebase\\GenAcademy\\Week3\\working-moms-buddy\\working-moms-buddy\\data\\live-restart-2026-10-25",
+  "status": "PASS",
+  "session_id": "a68ae0d7-0e86-41c9-9968-41d1f256840e",
+  "processes": [
+    {
+      "phase": "capture and pause at clarification",
+      "pid": 12400,
+      "exit_code": 0
+    },
+    {
+      "phase": "resume clarification and pause at review",
+      "pid": 36932,
+      "exit_code": 0
+    },
+    {
+      "phase": "resume review and approve checked proposal",
+      "pid": 30104,
+      "exit_code": 0
+    },
+    {
+      "phase": "read approved record independently",
+      "pid": 37588,
+      "exit_code": 0
+    }
+  ],
+  "scenarios": {
+    "3": {
+      "result": "PASS",
+      "clarification_question": "What is the full due date for returning the consent form?",
+      "reply": "The consent form is due 2026-11-03.",
+      "counts_at_clarification": [
+        0,
+        0
+      ],
+      "counts_at_review": [
+        0,
+        0
+      ],
+      "consent_due_date": "2026-11-03",
+      "lunch_due_date": "2026-11-06",
+      "confirmed_counts": [
+        1,
+        2
+      ],
+      "note_id": "a810d5a0-a87a-43a2-9065-102a88c1b710"
+    },
+    "10": {
+      "result": "PASS",
+      "paused_at_clarification": true,
+      "paused_at_review": true,
+      "distinct_cli_processes": 4,
+      "same_session_resumed": true,
+      "note_id": "a810d5a0-a87a-43a2-9065-102a88c1b710",
+      "approved_digest": "9ce8b0c44d49eeffd3d7055affae04e069e1eef974b0e175f7c199afaecda71d",
+      "approved_content_matches": true,
+      "independent_process_read_verified": true,
+      "confirmed_counts": [
+        1,
+        2
+      ]
+    }
+  },
+  "checked_date": "2026-10-25"
+}

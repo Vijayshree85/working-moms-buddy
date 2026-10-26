@@ -1,0 +1,48 @@
+{
+  "provider": "Nebius Token Factory",
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "data_kind": "fictional",
+  "data_folder": "C:\\codebase\\GenAcademy\\Week3\\working-moms-buddy\\working-moms-buddy\\data\\live-failures-2026-10-25",
+  "faults": "injected sqlite3.OperationalError exceptions; real store retry handling",
+  "reviewer": "simulated, after checking complete proposals",
+  "scenarios": {
+    "8": {
+      "result": "PASS",
+      "session_id": "temporary-read-993375fe-0db8-4106-954d-02d53cf9985b",
+      "note_id": "288458ea-eb15-4773-b3b8-035612626129",
+      "injected_failures": 1,
+      "connection_attempts": [
+        "injected failure",
+        "connected"
+      ],
+      "retrieval_status": "found",
+      "answer": "Maya's consent form is due on November 3, 2026. [note:288458ea-eb15-4773-b3b8-035612626129]",
+      "source_citation_verified": true,
+      "original_rows_unchanged": true,
+      "confirmed_counts": [
+        1,
+        2
+      ]
+    },
+    "9": {
+      "result": "PASS",
+      "session_id": "permanent-write-bb84abda-c84a-46d2-b37f-f07f2b66492b",
+      "injected_failures": 2,
+      "database_attempts": 2,
+      "outcome": "error",
+      "errors": [
+        "Local storage failed after two attempts."
+      ],
+      "message": "Save not verified. Retry the same notice; duplicate protection is active.",
+      "approved_digest": "99fb9f8c222580706047c94a8eb77437ae16041a4f32b0100d71d74781bfd093",
+      "verified_saved_record_returned": false,
+      "confirmed_counts": [
+        0,
+        0
+      ],
+      "partial_records": false
+    }
+  },
+  "status": "PASS",
+  "checked_date": "2026-10-25"
+}
